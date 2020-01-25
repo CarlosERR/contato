@@ -1,0 +1,28 @@
+{
+  "name": "carloserr/contato",
+  "description": "Formulário de contato",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carlos Ramos",
+      "email": "webdeveloper@conectario.com",
+      "role": "Developer",
+      "homepage": "https://www.conectario.com/"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.*"
+  }
+}
